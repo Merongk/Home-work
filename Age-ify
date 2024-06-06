@@ -1,0 +1,9 @@
+// Declare variables
+const yearOfBirth = 1987;
+const yearFuture = 2045;
+
+// Calculate age
+const age = yearFuture - yearOfBirth;
+
+// Output the result
+console.log("You will be " + age + " years old in " + yearFuture);
