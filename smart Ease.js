@@ -3,7 +3,7 @@ function getFullname(firstname, surname, useFormalName = false, gender = "male")
     if (!firstname || !surname) {
         return "Name is incomplete";
     }
-    let fullname = firstname + " " + surname;
+    let fullname = `${firstname}  ${surname}`;
     if (useFormalName) {
         fullname = (gender === "male" ? "Lord " : "Lady ") + fullname;
     }
